@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8deda0294d8d8ec04a046924a28429ca",
+    "revision": "1ea0e5d05d7781bb37e1e84bb4277c0d",
     "url": "/my-cripto-app/index.html"
   },
   {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81cc91c60d648201f512f8e2bc5f3af6",
+    "revision": "82bbaa042ca242070a91033afc7d7bea",
     "url": "/my-cripto-app/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-cripto-app/static/js/2.c41d71a4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76a065adf128bbc0751a",
-    "url": "/my-cripto-app/static/js/main.8caffacd.chunk.js"
+    "revision": "ccc8df8f810e707773d9",
+    "url": "/my-cripto-app/static/js/main.c1ec6776.chunk.js"
   },
   {
     "revision": "41f7fb5a7218774d3eb3",

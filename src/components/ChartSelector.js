@@ -13,7 +13,7 @@ const styletext = {
     color:"#666666"
 }
 
-function ChartSelector(props) {
+function ChartSelector({submitTime, submitCripto}) {
     return (
         <div>
             <table className="table">
@@ -21,7 +21,7 @@ function ChartSelector(props) {
                     <tr>
                         <th  style = {style}scope="col">
                             
-                            <select style={styleSelector} onChange={e => props.submitCripto(e.target.value)} >
+                            <select style={styleSelector} onChange={e => submitCripto(e.target.value)} >
                                 {criptoArray[0] && criptoArray.map(cripto => <option key={cripto} 
                                 value={cripto} >
                                     {name[cripto]}
@@ -31,7 +31,7 @@ function ChartSelector(props) {
                             <label style = {styletext}>
                                 Evolucion en USD
                             </label>
-                            <select style={styleSelector} onChange={e=>props.submitTime(e.target.value)}>
+                            <select style={styleSelector} onChange={e=>submitTime(e.target.value)}>
                                 <option value={360} >Anual</option>
                                 <option value={90} >Trimestal</option>
                                 <option value={30} >Mensual</option>

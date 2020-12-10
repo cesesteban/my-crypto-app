@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 
 
-function Nav(props) {
+function Nav() {
     return (
         <div className='nav-black'>
             {/* <div className="collapse" id="navbarToggleExternalContent">

@@ -10,7 +10,7 @@ const style2 = {
     backgroundColor: 'rgba(0,0,0,0.7)'
 }
 
-function HeaderStart(props) {
+function HeaderStart() {
     return (
         <div >
             <div className="p-5 text-center bg-image"  style={style} >

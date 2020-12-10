@@ -12,7 +12,7 @@ const styletext = {
     color:"#666666"
 }
 
-function ChartSelector2(props) {
+function ChartSelector2({submitTime, nameName}) {
 
     return (
         <div>
@@ -22,12 +22,12 @@ function ChartSelector2(props) {
                         <th  style = {style}scope="col">
                             
                             <button style={styleSelector}>
-                                {props.nameName}
+                                {nameName}
                             </button>
                             <label style = {styletext}>
                                 Evolucion en USD
                             </label>
-                            <select style={styleSelector} onChange={e=>props.submitTime(e.target.value)}>
+                            <select style={styleSelector} onChange={e=>submitTime(e.target.value)}>
                                 <option value={360} >Anual</option>
                                 <option value={90} >Trimestal</option>
                                 <option value={30} >Mensual</option>

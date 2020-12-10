@@ -3,7 +3,7 @@ import Nav from './Nav';
 import Chart2 from './Chart2'
 import ChartSelector2 from './ChartSelector2'
 
-function SpecificChart(props) {
+function SpecificChart({location}) {
 
     let timeSelected = 120
     let criptoName = "BTC"
@@ -11,12 +11,12 @@ function SpecificChart(props) {
 
     if (props.location.aboutProps !== undefined) {
         if (props.location.aboutProps.nCripto !== undefined) {
-            criptoName = (props.location.aboutProps.nCripto.nameCripto)
+            criptoName = (location.aboutProps.nCripto.nameCripto)
         }
     }
     if (props.location.aboutProps !== undefined) {
         if (props.location.aboutProps.nCripto !== undefined) {
-            nameCriptoName = (props.location.aboutProps.nCripto.name)
+            nameCriptoName = (location.aboutProps.nCripto.name)
         }
     }
 

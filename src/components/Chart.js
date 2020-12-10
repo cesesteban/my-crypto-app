@@ -4,7 +4,7 @@ import moment from 'moment';
 import { useDispatch, useSelector } from 'react-redux'
 import { getDataCripto } from '../store/action'
 
-const styleChart = {
+const position = {
     display: 'flex',
     justifyContent: 'center',
     margin: "auto"
@@ -52,7 +52,7 @@ function Chart({criptoName, timeSelect}) {
                     <span className="sr-only">Loading...</span>
                 </div>
             </div>
-        ):(<div className='row' style={styleChart} >
+        ):(<div className='row' style={position} >
             <div className='col-md-12' >
                 <Line data={data} options={options} />
             </div>

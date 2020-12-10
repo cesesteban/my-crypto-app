@@ -1,14 +1,14 @@
 import React from 'react';
 
-const style = {
+const position = {
     display: "flex",
     justifyContent: "space-between"
 }
-const styleSelector = {
+const color = {
     backgroundColor:"#cfd2d6",
     borderColor: "#b1b1ff"
 }
-const styletext = {
+const colortext = {
     color:"#666666"
 }
 
@@ -19,15 +19,15 @@ function ChartSelector2({submitTime, nameName}) {
             <table className="table">
                 <thead className="table">
                     <tr>
-                        <th  style = {style}scope="col">
+                        <th  style = {position}scope="col">
                             
-                            <button style={styleSelector}>
+                            <button style={color}>
                                 {nameName}
                             </button>
-                            <label style = {styletext}>
+                            <label style = {colortext}>
                                 Evolucion en USD
                             </label>
-                            <select style={styleSelector} onChange={e=>submitTime(e.target.value)}>
+                            <select style={color} onChange={e=>submitTime(e.target.value)}>
                                 <option value={360} >Anual</option>
                                 <option value={90} >Trimestal</option>
                                 <option value={30} >Mensual</option>

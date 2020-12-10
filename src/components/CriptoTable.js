@@ -1,17 +1,17 @@
 import React from 'react';
-import Tabla from './Tabla';
+import Table from './Table';
 import Nav from './Nav'
 
-function TablaCripto() {
+function CriptoTable() {
 
     return (
         <div>
             <div>
                 <Nav />
-                <Tabla/>
+                <Table/>
             </div>
         </div>
     );
 }
 
-export default TablaCripto;
+export default CriptoTable;

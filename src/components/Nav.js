@@ -9,7 +9,7 @@ function Nav(props) {
                 <div className="bg-dark p-4">
                     <nav style={style} className="navbar navbar-dark bg-dark">
                         <NavLink style={{ marginRight: '20px', color: 'white' }} to="/" >Home</NavLink>
-                        <NavLink style={{ marginRight: '20px', color: 'white' }} to="/TablaCripto">Pricing</NavLink>
+                        <NavLink style={{ marginRight: '20px', color: 'white' }} to="/CriptoTable">Pricing</NavLink>
                         <NavLink style={{ marginRight: '20px', color: 'white' }} to="/Charts" >Charts</NavLink>
                     </nav>
                 </div>

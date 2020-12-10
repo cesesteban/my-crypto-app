@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Tr, Th, Td } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
-function Filas({ cripto, name, nameCripto}) {//recibe por parametro dos variables
+function Row({ cripto, name, nameCripto}) {//recibe por parametro dos variables
     //console.log(nameCripto)
     return (
         <Tr >
@@ -35,4 +35,4 @@ function Filas({ cripto, name, nameCripto}) {//recibe por parametro dos variable
     );
 }
 
-export default Filas;
+export default Row;

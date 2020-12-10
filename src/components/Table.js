@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 import { getCripto } from '../store/action'
-import Filas from './Filas'
+import Row from './Row'
 import { criptoArray, name } from './Utils'
 import { Table, Thead, Tbody, Tr, Th } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
-function Tabla() {
+function Table() {
 
     const dispatch = useDispatch()
     const dataCripto = useSelector(state => state.criptoDetail)
@@ -47,7 +47,7 @@ function Tabla() {
                         </Thead>
                         <Tbody >
                             {dataCripto && dataCripto[criptoArray[0]] && criptoArray.map(cripto => (
-                                <Filas key={cripto} name={name[cripto]} cripto={dataCripto[cripto].USD} nameCripto={cripto} />))}
+                                <Row key={cripto} name={name[cripto]} cripto={dataCripto[cripto].USD} nameCripto={cripto} />))}
                         </Tbody>
                     </Table>))}
             </div>
@@ -56,4 +56,4 @@ function Tabla() {
 }
 
 
-export default (Tabla)
+export default (Table)

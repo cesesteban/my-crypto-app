@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const background = {
-    //height: '-webkit-fill-available',
     backgroundImage: `url('http://blogs.elpais.com/.a/6a00d8341bfb1653ef01b8d285b95f970c-pi')`,
     height: '100vh'
 }

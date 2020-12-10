@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import { Tr, Th, Td } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
-function Row({ cripto, name, nameCripto}) {//recibe por parametro dos variables
-    //console.log(nameCripto)
+function Row({ cripto, name, nameCripto}) {
     return (
         <Tr >
             <Th scope="row">{cripto.FROMSYMBOL}</Th>

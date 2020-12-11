@@ -6,7 +6,7 @@ import { criptoArray, name } from './Utils'
 import { Table, Thead, Tbody, Tr, Th } from 'react-super-responsive-table'
 import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
-function Table() {
+function List() {
 
     const dispatch = useDispatch()
     const dataCripto = useSelector(state => state.criptoDetail)
@@ -56,4 +56,4 @@ function Table() {
 }
 
 
-export default (Table)
+export default (List)

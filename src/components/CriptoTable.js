@@ -1,5 +1,5 @@
 import React from 'react';
-import Table from './Table';
+import List from './List';
 import Nav from './Nav'
 
 function CriptoTable() {
@@ -8,7 +8,7 @@ function CriptoTable() {
         <div>
             <div>
                 <Nav />
-                <Table/>
+                <List/>
             </div>
         </div>
     );

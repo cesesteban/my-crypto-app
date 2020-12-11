@@ -9,13 +9,13 @@ function SpecificChart({location}) {
     let criptoName = "BTC"
     let nameCriptoName = 'Bitcoin'
 
-    if (props.location.aboutProps !== undefined) {
-        if (props.location.aboutProps.nCripto !== undefined) {
+    if (location.aboutProps !== undefined) {
+        if (location.aboutProps.nCripto !== undefined) {
             criptoName = (location.aboutProps.nCripto.nameCripto)
         }
     }
-    if (props.location.aboutProps !== undefined) {
-        if (props.location.aboutProps.nCripto !== undefined) {
+    if (location.aboutProps !== undefined) {
+        if (location.aboutProps.nCripto !== undefined) {
             nameCriptoName = (location.aboutProps.nCripto.name)
         }
     }

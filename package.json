@@ -2,7 +2,7 @@
   "name": "my-cripto-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cesesteban.github.io/my-cripto-app/",
+  "homepage": "https://cesesteban.github.io/my-crypto-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

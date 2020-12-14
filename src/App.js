@@ -9,10 +9,10 @@ import SpecificChart from './components/SpecificChart'
 function App() {
   return (
     <React.Fragment>
-      <Route exact path='/my-cripto-app/' component={Home} />
-      <Route path='/my-cripto-app/Home' component={CriptoTable} />
-      <Route path='/my-cripto-app/Charts' component={Charts} />
-      <Route path='/my-cripto-app/Chart' component={SpecificChart} />
+      <Route exact path='/my-crypto-app/' component={Home} />
+      <Route path='/my-crypto-app/Home' component={CriptoTable} />
+      <Route path='/my-crypto-app/Charts' component={Charts} />
+      <Route path='/my-crypto-app/Chart' component={SpecificChart} />
     </React.Fragment>
   );
 }

@@ -7,8 +7,8 @@ function Nav() {
         <div className='nav-black'>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                        <NavLink style={{ marginRight: '20px', color: 'white' }} to='/my-cripto-app/Home'>Home</NavLink>
-                        <NavLink style={{ marginRight: '20px', color: 'white' }} to="/my-cripto-app/Charts" >Charts</NavLink>
+                        <NavLink style={{ marginRight: '20px', color: 'white' }} to='/my-crypto-app/Home'>Home</NavLink>
+                        <NavLink style={{ marginRight: '20px', color: 'white' }} to="/my-crypto-app/Charts" >Charts</NavLink>
                 </div>
             </nav>
         </div>

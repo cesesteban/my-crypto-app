@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/my-cripto-app/static/js/main.ce486e51.chunk.js",
-    "main.js.map": "/my-cripto-app/static/js/main.ce486e51.chunk.js.map",
+    "main.js": "/my-cripto-app/static/js/main.8f407cf0.chunk.js",
+    "main.js.map": "/my-cripto-app/static/js/main.8f407cf0.chunk.js.map",
     "runtime-main.js": "/my-cripto-app/static/js/runtime-main.efb8bbd3.js",
     "runtime-main.js.map": "/my-cripto-app/static/js/runtime-main.efb8bbd3.js.map",
     "static/css/2.326c04ff.chunk.css": "/my-cripto-app/static/css/2.326c04ff.chunk.css",
     "static/js/2.f9e8f14f.chunk.js": "/my-cripto-app/static/js/2.f9e8f14f.chunk.js",
     "static/js/2.f9e8f14f.chunk.js.map": "/my-cripto-app/static/js/2.f9e8f14f.chunk.js.map",
     "index.html": "/my-cripto-app/index.html",
-    "precache-manifest.fbe501a10242062a0ffeba850553c3b4.js": "/my-cripto-app/precache-manifest.fbe501a10242062a0ffeba850553c3b4.js",
+    "precache-manifest.773616f6b76c97944e4c53061bdf88bb.js": "/my-cripto-app/precache-manifest.773616f6b76c97944e4c53061bdf88bb.js",
     "service-worker.js": "/my-cripto-app/service-worker.js",
     "static/css/2.326c04ff.chunk.css.map": "/my-cripto-app/static/css/2.326c04ff.chunk.css.map",
     "static/js/2.f9e8f14f.chunk.js.LICENSE.txt": "/my-cripto-app/static/js/2.f9e8f14f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.efb8bbd3.js",
     "static/css/2.326c04ff.chunk.css",
     "static/js/2.f9e8f14f.chunk.js",
-    "static/js/main.ce486e51.chunk.js"
+    "static/js/main.8f407cf0.chunk.js"
   ]
 }

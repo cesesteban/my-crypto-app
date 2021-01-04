@@ -8,7 +8,7 @@ function Row({ cripto, name, nameCripto}) {
         <Tr >
             <Th scope="row">{cripto.FROMSYMBOL}</Th>
             <Td>
-                <Link to={{pathname: "/my-cripto-app/Chart", aboutProps: {nCripto: {nameCripto, name}}}} >
+                <Link to={{pathname: "/my-crypto-app/Chart", aboutProps: {nCripto: {nameCripto, name}}}} >
                     {name}
                 </Link>
             </Td>
